@@ -7,7 +7,7 @@ Home: https://github.com/madeline-scyphers/panel-jstree
 
 Package license: MIT
 
-Summary: This package makes it super simple to do exploratory data analysis and develop high-quality Panel data apps ...
+Summary: panel-jstree is a wrapper python wrapper around the javascript library jstree for use in panel. This allows for JSON-like representations of tree data. One very useful implementation provided is a server-side file browser.
 
 Current build status
 ====================

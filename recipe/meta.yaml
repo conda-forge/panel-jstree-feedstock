@@ -1,5 +1,5 @@
 {% set name = "panel-jstree" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.02" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/panel-jstree-{{ version }}.tar.gz
-  sha256: 784907e9411cdc95fe25bdab9f910ce598188ab5d9d6c1a3c4b3f71118215a1e
+  sha256: 1c5f7a9cba02cc864f878fe9142920cb013b5c73204f4fc853e1a7f1d87442f0
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/madeline-scyphers/panel-jstree
-  summary: This package makes it super simple to do exploratory data analysis and develop high-quality Panel data apps ...
+  summary: panel-jstree is a wrapper python wrapper around the javascript library jstree for use in panel. This allows for JSON-like representations of tree data. One very useful implementation provided is a server-side file browser.
   license: MIT
   license_file: LICENSE
 

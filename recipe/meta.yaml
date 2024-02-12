@@ -1,5 +1,5 @@
 {% set name = "panel-jstree" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/panel-jstree-{{ version }}.tar.gz
-  sha256: 0bff000f4c14668624b89ae5b5b6fa2908e41453aeaf43658ac9a2b05431b22f
+  sha256: 53ee8e03e850fef2b883a4a432a37c67e98bb3bfecf24dee7fc1e477435403b3
 
 build:
   noarch: python
